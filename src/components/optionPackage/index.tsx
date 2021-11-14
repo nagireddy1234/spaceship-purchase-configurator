@@ -1,8 +1,7 @@
-import React from "react";
 import "./style.scss";
 
 interface Props {
-  price?: number;
+  price: number;
   planName: string;
   data: string[];
   hidePrice?: boolean;
@@ -24,8 +23,11 @@ const OptionPackage = ({
       onClick={onClick}
     >
       <p className="planName">{planName}</p>
-      {!hidePrice && <p className="planPrice">+{price}€</p>}
-      {hidePrice && <div className="align-spacing" />}
+      {!hidePrice ? (
+        <p className="planPrice">+{price}€</p>
+      ) : (
+        <div className="align-spacing" />
+      )}
       <ul className="unorderlist">
         {data.map((name: string) => (
           <li key={name}>

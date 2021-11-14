@@ -42,8 +42,8 @@ const Home = () => {
     if (keyName === "warpSelected") {
       newPrices.warpPrice = warpPrice[type - 1];
     }
-    if (keyName === "optionPrice") {
-      newPrices.colorPrice = optionPrice[type - 1];
+    if (keyName === "optionalSelected") {
+      newPrices.optionPrice = optionPrice[type - 1];
     }
     setPrices(newPrices);
   };
@@ -83,19 +83,19 @@ const Home = () => {
             <div className="col-80">
               <ToolCard
                 title="100 MW"
-                price={100}
+                price={0}
                 selected={state.powerSelected === 1}
                 onClick={() => handleSelect(1, "powerSelected")}
               />
               <ToolCard
                 title="150 MW"
-                price={150}
+                price={200}
                 selected={state.powerSelected === 2}
                 onClick={() => handleSelect(2, "powerSelected")}
               />
               <ToolCard
                 title="200 MW"
-                price={200}
+                price={500}
                 selected={state.powerSelected === 3}
                 onClick={() => handleSelect(3, "powerSelected")}
               />
@@ -126,6 +126,7 @@ const Home = () => {
                 data={basicPackage}
                 selected={state.optionalSelected === 1}
                 onClick={() => handleSelect(1, "optionalSelected")}
+                price={0}
               />
               <OptionPackage
                 planName="Sport"
@@ -143,37 +144,37 @@ const Home = () => {
               />
             </div>
           </div>
-          <div className="col-20">
+          <div className="w-20">
             <div className="info-card">
               <div className="flex">
                 <p className="info-title">Base price:</p>
-                <p className="title-price">{prices.basePrice}€</p>
+                <p className="title-price">+{prices.basePrice}€</p>
               </div>
               <div className="flex">
                 <p className="info-title">Color:</p>
-                <p className="title-price">{prices.colorPrice} €</p>
+                <p className="title-price">+{prices.colorPrice}€</p>
               </div>
               <div className="flex">
                 <p className="info-title">Power:</p>
-                <p className="title-price">{prices.powerPrice} €</p>
+                <p className="title-price">+{prices.powerPrice}€</p>
               </div>
               <div className="flex">
                 <p className="info-title">Warp drive:</p>
-                <p className="title-price">{prices.warpPrice} €</p>
+                <p className="title-price">+{prices.warpPrice}€</p>
               </div>
               <div className="flex">
                 <p className="info-title">Option package:</p>
-                <p className="title-price">{prices.optionPrice} €</p>
+                <p className="title-price">+{prices.optionPrice}€</p>
               </div>
               <div className="divider"></div>
               <div className="flex">
-                <p className="info-title">Total:</p>
-                <p className="title-price">
+                <p className="info-total">Total:</p>
+                <p className="total-price">
                   {prices.basePrice +
                     prices.colorPrice +
                     prices.optionPrice +
                     prices.powerPrice +
-                    prices.warpPrice}{" "}
+                    prices.warpPrice}
                   €
                 </p>
               </div>

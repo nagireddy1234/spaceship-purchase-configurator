@@ -22,6 +22,19 @@
       letter-spacing: 0.2em;
       margin-bottom: 2.812rem;
     }
+    .row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    .w-80 {
+      width: 80%;
+    }
+    .tool-name {
+      color: $lighGreen;
+      font-size: 1.125rem;
+      margin-bottom: 0.5rem;
+    }
     div.selected {
       border: 1px solid $lighGreen;
       color: $lighGreen;
@@ -44,54 +57,61 @@
       display: flex;
       justify-content: space-between;
     }
-    .col-20 {
+    .spacing {
+      width: 100%;
+      height: 3rem;
+    }
+    .w-20 {
       width: calc(25% - 1rem);
+      min-width: 19rem;
       .info-card {
         background-color: $darkGreen;
         padding: 1rem;
         border-radius: 0.5rem;
         border: 1px solid $lighGreen;
+        .flex {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 0.5rem;
+        }
+        .info-title {
+          font-size: 0.875rem;
+          color: $lighGreen;
+          font-style: normal;
+          font-weight: normal;
+          letter-spacing: 0.2em;
+        }
+        .title-price {
+          color: $white;
+          font-size: 0.875rem;
+          font-style: normal;
+          font-weight: normal;
+          letter-spacing: 0.2em;
+        }
+        .divider {
+          height: 1px;
+          width: 100%;
+          background-color: $lighGreen;
+          margin-top: 0.937rem;
+          margin-bottom: 1.437rem;
+        }
+        .title {
+          font-size: 0.875rem;
+        }
+        .total-price,
+        .info-total {
+          font-size: 1.125rem;
+          font-family: Roboto Mono;
+          font-style: normal;
+          font-weight: normal;
+          color: $lighGreen;
+          letter-spacing: 0.2em;
+        }
+        .total-price{
+          color: $white;
+        }
       }
     }
-    .flex {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .divider {
-      height: 1px;
-      width: 100%;
-      background-color: $lighGreen;
-      margin-top: 0.937rem;
-      margin-bottom: 1.437rem;
-    }
-    .spacing {
-      width: 100%;
-      height: 3rem;
-    }
-    .title {
-      font-size: 0.875rem;
-    }
-    .info-title {
-      font-size: 0.875rem;
-      color: $lighGreen;
-    }
-    .title-price {
-      color: $white;
-      font-size: 0.875rem;
-    }
-  }
-  .w-80 {
-    width: 80%;
-  }
-  .tool-name {
-    color: $lighGreen;
-    font-size: 1.125rem;
-    margin-bottom: 0.5rem;
-  }
-  .row {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
   }
 }
