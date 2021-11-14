@@ -1,0 +1,97 @@
+@import "../theme/colors.scss";
+.wrapper {
+  background-color: $blue;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem 0;
+  .card-wrapper {
+    border: 1px solid $lighGreen;
+    border-radius: 0.5rem;
+    max-width: 59rem;
+    margin: auto;
+    padding: 2.5rem 2rem 2.5rem 2rem;
+    width: 100%;
+    .heading {
+      font-family: Roboto Mono;
+      color: $lighGreen;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      text-align: center;
+      letter-spacing: 0.2em;
+      margin-bottom: 2.812rem;
+    }
+    div.selected {
+      border: 1px solid $lighGreen;
+      color: $lighGreen;
+      filter: drop-shadow(0px 0px 10px #7bf762);
+    }
+    .col-4 {
+      width: calc(33.33% - 3.5rem);
+      border: 1px solid $fadeGreen;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      cursor: pointer;
+      color: $fadeGreen;
+    }
+    .col-80 {
+      width: calc(100% - 2rem);
+      display: flex;
+      justify-content: space-between;
+    }
+    .col-20 {
+      width: calc(25% - 1rem);
+      .info-card {
+        background-color: $darkGreen;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border: 1px solid $lighGreen;
+      }
+    }
+    .flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .divider {
+      height: 1px;
+      width: 100%;
+      background-color: $lighGreen;
+      margin-top: 0.937rem;
+      margin-bottom: 1.437rem;
+    }
+    .spacing {
+      width: 100%;
+      height: 3rem;
+    }
+    .title {
+      font-size: 0.875rem;
+    }
+    .info-title {
+      font-size: 0.875rem;
+      color: $lighGreen;
+    }
+    .title-price {
+      color: $white;
+      font-size: 0.875rem;
+    }
+  }
+  .w-80 {
+    width: 80%;
+  }
+  .tool-name {
+    color: $lighGreen;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+  .row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
