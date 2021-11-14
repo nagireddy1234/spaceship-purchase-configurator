@@ -3,6 +3,7 @@
   background-color: $blue;
   width: 100%;
   min-height: 100vh;
+  height: 100%;
   padding: 2rem 0;
   .card-wrapper {
     border: 1px solid $lighGreen;
@@ -40,7 +41,8 @@
       color: $lighGreen;
       filter: drop-shadow(0px 0px 10px #7bf762);
     }
-    .col-4 {
+    .col-4,
+    .col-3 {
       width: calc(33.33% - 3.5rem);
       border: 1px solid $fadeGreen;
       display: flex;
@@ -51,6 +53,9 @@
       padding: 1rem;
       cursor: pointer;
       color: $fadeGreen;
+    }
+    .col-3 {
+      width: calc(33.33% - 3.5rem);
     }
     .col-80 {
       width: calc(100% - 2rem);
@@ -64,6 +69,7 @@
     .w-20 {
       width: calc(25% - 1rem);
       min-width: 19rem;
+      margin-top: 1.95rem;
       .info-card {
         background-color: $darkGreen;
         padding: 1rem;
@@ -108,9 +114,70 @@
           color: $lighGreen;
           letter-spacing: 0.2em;
         }
-        .total-price{
+        .total-price {
           color: $white;
         }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 1062px) {
+  .wrapper {
+    padding: 1rem;
+    .card-wrapper {
+      padding: 2rem;
+      width: auto;
+      max-width: fit-content;
+      margin: 1rem auto;
+      .row {
+        flex-direction: column;
+      }
+      .w-80 {
+        width: 100%;
+      }
+      .col-80 {
+        width: 100%;
+      }
+      .w-20 {
+        width: 100%;
+        margin-top: 4.5rem;
+      }
+      .col-4 {
+        width: calc(33.33% - 3.5rem);
+      }
+      .col-3 {
+        width: calc(33.33% - 1.5rem);
+      }
+    }
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 575px) {
+  .wrapper {
+    .card-wrapper {
+      padding: 0.5rem;
+      width: auto;
+      border: 0;
+      max-width: fit-content;
+      margin: 0.5rem auto;
+      .row {
+        flex-direction: column;
+      }
+      .w-80 {
+        width: 100%;
+      }
+      .col-80 {
+        width: 100%;
+      }
+      .w-20 {
+        width: 100%;
+        margin-top: 4rem;
+      }
+      .col-4 {
+        width: calc(33.33% - 2.5rem);
+      }
+      .col-3 {
+        width: calc(33.33% - 0.5rem);
       }
     }
   }

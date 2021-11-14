@@ -19,7 +19,7 @@ const OptionPackage = ({
 }: Props): JSX.Element => {
   return (
     <div
-      className={`col-4 justify-content-start ${selected ? "selected" : ""}`}
+      className={`col-3 justify-content-start ${selected ? "selected" : ""}`}
       onClick={onClick}
     >
       <p className="planName">{planName}</p>
