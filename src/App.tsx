@@ -1,7 +1,15 @@
-import Home from "./home";
+import Home from './home';
+import { Helmet } from 'react-helmet';
 
 function App() {
-  return <Home />;
+    return (
+        <>
+            <Helmet>
+                <title>spaceship-purchase-configurator</title>
+            </Helmet>
+            <Home />
+        </>
+    );
 }
 
 export default App;

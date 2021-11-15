@@ -49,3 +49,10 @@ div.selectedArrow {
 .align-spacing {
   height: 2.812rem;
 }
+
+@media screen and (min-width: 0px) and (max-width: 575px) {
+  .unorderlist li {
+    padding: 0.5rem 0 0 0.2rem;
+    word-break: break-all;
+  }
+}
