@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checking ColorSelector component rendring correctly or not. 1`] = `
+<div
+  className="col-4 "
+  onClick={[Function]}
+>
+  <div
+    className="color"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+      }
+    }
+  />
+  <p
+    className="price"
+  >
+     +
+    0
+    €
+  </p>
+  <p
+    className="colorname"
+  >
+    White
+  </p>
+</div>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checking ColorSelector component rendring correctly or not. 1`] = `
+<div
+  className="col-4 "
+  onClick={[Function]}
+>
+  <p
+    className="title"
+  >
+    100 MW
+  </p>
+  <p
+    className="titlePrice"
+  >
+    +
+    0
+    €
+  </p>
+</div>
+`;

@@ -1,3 +1,4 @@
+import React from "react"
 import { useState } from "react";
 import ColorSelector from "../components/colorSelector";
 import OptionPackage from "../components/optionPackage";
@@ -6,7 +7,7 @@ import { basicPackage, luxPackage, sportPackage } from "../data/packeges";
 import { colorPrice, optionPrice, powerPrice, warpPrice } from "../data/price";
 import "./style.scss";
 
-const colors = {
+export const colors = {
   white: "#fff",
   orange: "#FF7A00",
   skyeblue: "#6BE4FF",

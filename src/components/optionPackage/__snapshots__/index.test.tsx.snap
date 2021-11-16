@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checking ColorSelector component rendring correctly or not. 1`] = `
+<div
+  className="col-3 justify-content-start "
+  onClick={[Function]}
+>
+  <p
+    className="planName"
+  >
+    Sport
+  </p>
+  <p
+    className="planPrice"
+  >
+    +
+    100
+    €
+  </p>
+  <ul
+    className="unorderlist"
+  >
+    <li>
+      <div
+        className="arrowup "
+      />
+      Air conditioning
+    </li>
+    <li>
+      <div
+        className="arrowup "
+      />
+      Cloth seats
+    </li>
+    <li>
+      <div
+        className="arrowup "
+      />
+      Fm radio
+    </li>
+    <li>
+      <div
+        className="arrowup "
+      />
+      Personal tech support
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,481 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checking index file rendring correctly or not. 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="card-wrapper"
+  >
+    <h4
+      className="heading"
+    >
+      Spaceship configurator
+    </h4>
+    <div
+      className="row"
+    >
+      <div
+        className="w-80"
+      >
+        <p
+          className="tool-name"
+        >
+          Select color:
+        </p>
+        <div
+          className="col-80"
+        >
+          <div
+            className="col-4 "
+            onClick={[Function]}
+          >
+            <div
+              className="color"
+              style={
+                Object {
+                  "backgroundColor": "#fff",
+                }
+              }
+            />
+            <p
+              className="price"
+            >
+               +
+              0
+              €
+            </p>
+            <p
+              className="colorname"
+            >
+              White
+            </p>
+          </div>
+          <div
+            className="col-4 "
+            onClick={[Function]}
+          >
+            <div
+              className="color"
+              style={
+                Object {
+                  "backgroundColor": "#FF7A00",
+                }
+              }
+            />
+            <p
+              className="price"
+            >
+               +
+              100
+              €
+            </p>
+            <p
+              className="colorname"
+            >
+              Volcano
+            </p>
+          </div>
+          <div
+            className="col-4 "
+            onClick={[Function]}
+          >
+            <div
+              className="color"
+              style={
+                Object {
+                  "backgroundColor": "#6BE4FF",
+                }
+              }
+            />
+            <p
+              className="price"
+            >
+               +
+              100
+              €
+            </p>
+            <p
+              className="colorname"
+            >
+              Sky
+            </p>
+          </div>
+        </div>
+        <div
+          className="spacing"
+        />
+        <p
+          className="tool-name"
+        >
+          Select power:
+        </p>
+        <div
+          className="col-80"
+        >
+          <div
+            className="col-4 "
+            onClick={[Function]}
+          >
+            <p
+              className="title"
+            >
+              100 MW
+            </p>
+            <p
+              className="titlePrice"
+            >
+              +
+              0
+              €
+            </p>
+          </div>
+          <div
+            className="col-4 "
+            onClick={[Function]}
+          >
+            <p
+              className="title"
+            >
+              150 MW
+            </p>
+            <p
+              className="titlePrice"
+            >
+              +
+              200
+              €
+            </p>
+          </div>
+          <div
+            className="col-4 "
+            onClick={[Function]}
+          >
+            <p
+              className="title"
+            >
+              200 MW
+            </p>
+            <p
+              className="titlePrice"
+            >
+              +
+              500
+              €
+            </p>
+          </div>
+        </div>
+        <div
+          className="spacing"
+        />
+        <p
+          className="tool-name"
+        >
+          Warp drive:
+        </p>
+        <div
+          className="col-80 justify-start"
+        >
+          <div
+            className="col-4 "
+            onClick={[Function]}
+          >
+            <p
+              className="title"
+            >
+              NO
+            </p>
+            <p
+              className="titlePrice"
+            >
+              +
+              0
+              €
+            </p>
+          </div>
+          <div
+            className="col-4 "
+            onClick={[Function]}
+          >
+            <p
+              className="title"
+            >
+              YES
+            </p>
+            <p
+              className="titlePrice"
+            >
+              +
+              1000
+              €
+            </p>
+          </div>
+          <div
+            className="col-4"
+            style={
+              Object {
+                "visibility": "hidden",
+              }
+            }
+          />
+        </div>
+        <div
+          className="spacing"
+        />
+        <p
+          className="tool-name"
+        >
+          Select option package:
+        </p>
+        <div
+          className="col-80 justify-start"
+        >
+          <div
+            className="col-3 justify-content-start "
+            onClick={[Function]}
+          >
+            <p
+              className="planName"
+            >
+              Basic
+            </p>
+            <div
+              className="align-spacing"
+            />
+            <ul
+              className="unorderlist"
+            >
+              <li>
+                <div
+                  className="arrowup "
+                />
+                Air conditioning
+              </li>
+              <li>
+                <div
+                  className="arrowup "
+                />
+                Cloth seats
+              </li>
+              <li>
+                <div
+                  className="arrowup "
+                />
+                Fm radio
+              </li>
+            </ul>
+          </div>
+          <div
+            className="col-3 justify-content-start "
+            onClick={[Function]}
+          >
+            <p
+              className="planName"
+            >
+              Sport
+            </p>
+            <p
+              className="planPrice"
+            >
+              +
+              100
+              €
+            </p>
+            <ul
+              className="unorderlist"
+            >
+              <li>
+                <div
+                  className="arrowup "
+                />
+                Air conditioning
+              </li>
+              <li>
+                <div
+                  className="arrowup "
+                />
+                Cloth seats
+              </li>
+              <li>
+                <div
+                  className="arrowup "
+                />
+                Fm radio
+              </li>
+              <li>
+                <div
+                  className="arrowup "
+                />
+                Personal tech support
+              </li>
+            </ul>
+          </div>
+          <div
+            className="col-3 justify-content-start "
+            onClick={[Function]}
+          >
+            <p
+              className="planName"
+            >
+              Lux
+            </p>
+            <p
+              className="planPrice"
+            >
+              +
+              500
+              €
+            </p>
+            <ul
+              className="unorderlist"
+            >
+              <li>
+                <div
+                  className="arrowup "
+                />
+                Air conditioning
+              </li>
+              <li>
+                <div
+                  className="arrowup "
+                />
+                Luxury seats
+              </li>
+              <li>
+                <div
+                  className="arrowup "
+                />
+                Fm radio
+              </li>
+              <li>
+                <div
+                  className="arrowup "
+                />
+                Chrome weels
+              </li>
+              <li>
+                <div
+                  className="arrowup "
+                />
+                Window tint
+              </li>
+              <li>
+                <div
+                  className="arrowup "
+                />
+                Subwoofer
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        className="w-20"
+      >
+        <div
+          className="info-card"
+        >
+          <div
+            className="flex"
+          >
+            <p
+              className="info-title"
+            >
+              Base price:
+            </p>
+            <p
+              className="title-price"
+            >
+              +
+              1000
+              €
+            </p>
+          </div>
+          <div
+            className="flex"
+          >
+            <p
+              className="info-title"
+            >
+              Color:
+            </p>
+            <p
+              className="title-price"
+            >
+              +
+              0
+              €
+            </p>
+          </div>
+          <div
+            className="flex"
+          >
+            <p
+              className="info-title"
+            >
+              Power:
+            </p>
+            <p
+              className="title-price"
+            >
+              +
+              0
+              €
+            </p>
+          </div>
+          <div
+            className="flex"
+          >
+            <p
+              className="info-title"
+            >
+              Warp drive:
+            </p>
+            <p
+              className="title-price"
+            >
+              +
+              0
+              €
+            </p>
+          </div>
+          <div
+            className="flex"
+          >
+            <p
+              className="info-title"
+            >
+              Option package:
+            </p>
+            <p
+              className="title-price"
+            >
+              +
+              0
+              €
+            </p>
+          </div>
+          <div
+            className="divider"
+          />
+          <div
+            className="flex"
+          >
+            <p
+              className="info-total"
+            >
+              Total:
+            </p>
+            <p
+              className="total-price"
+            >
+              1000
+              €
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
