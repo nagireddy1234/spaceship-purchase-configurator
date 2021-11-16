@@ -24,7 +24,10 @@ module.exports = {
         maxEntrypointSize: 512000,
         maxAssetSize: 512000,
     },
-
+    externals: {
+        react: 'React',
+        'react-dom': 'reactDOM',
+    },
     module: {
         rules: [
             {
@@ -52,6 +55,9 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: './src/index.html',
             filename: 'index.html',
+        }),
+        new webpack.ProvidePlugin({
+            process: 'process/browser',
         }),
         new webpack.ContextReplacementPlugin(/moment[/\\]locale$/, /en/),
         new ErrorOverlayPlugin(),
