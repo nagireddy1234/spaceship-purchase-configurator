@@ -18,7 +18,6 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
     },
-    mode: 'none',
     performance: {
         hints: false,
         maxEntrypointSize: 512000,
