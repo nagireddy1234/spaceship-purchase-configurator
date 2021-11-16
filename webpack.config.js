@@ -24,10 +24,6 @@ module.exports = {
         maxEntrypointSize: 512000,
         maxAssetSize: 512000,
     },
-    externals: {
-        react: 'React',
-        'react-dom': 'reactDOM',
-    },
     module: {
         rules: [
             {
